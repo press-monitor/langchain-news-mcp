@@ -1,0 +1,6 @@
+langchain>=0.0.350
+httpx>=0.25.0
+pydantic>=2.4.0
+aiofiles>=23.0.0
+tenacity>=8.2.0
+python-dotenv>=1.0.0

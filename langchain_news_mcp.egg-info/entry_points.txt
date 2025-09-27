@@ -1,0 +1,16 @@
+[langchain.document_loaders]
+news_batch_loader = langchain_news_mcp.loaders:NewsBatchLoader
+news_loader = langchain_news_mcp.loaders:NewsLoader
+news_stream_loader = langchain_news_mcp.loaders:NewsStreamLoader
+
+[langchain.retrievers]
+news_retriever = langchain_news_mcp.retrievers:NewsRetriever
+news_time_retriever = langchain_news_mcp.retrievers:NewsTimeRetriever
+news_vector_retriever = langchain_news_mcp.retrievers:NewsVectorRetriever
+
+[langchain.tools]
+news_briefs_tool = langchain_news_mcp.tools:NewsBriefsTool
+news_fulltext_tool = langchain_news_mcp.tools:NewsFullTextTool
+news_headlines_tool = langchain_news_mcp.tools:NewsHeadlinesTool
+news_search_tool = langchain_news_mcp.tools:NewsSearchTool
+news_tool = langchain_news_mcp.tools:NewsTool
